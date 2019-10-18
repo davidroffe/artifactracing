@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Gotham Black';
+  src: url('/assets/fonts/Gotham_Black.otf');
+}
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url('/assets/fonts/Gotham_Bold.otf');
+}
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('/assets/fonts/Gotham_Book.otf');
+}
 html,
 body {
   height: 100%;
@@ -18,7 +30,7 @@ body {
   object-fit: cover;
   opacity: 0.8;
 }
-#center {
+#center-left {
   display: inline-block;
   position: relative;
   top: 38%;
@@ -30,17 +42,24 @@ body {
 #logo-container img {
   max-width: 100%;
 }
-#center #social {
+#center-left #social {
   display: flex;
   margin-top: 10px;
 }
-#center #social a {
+#center-left #social a {
   display: inline-block;
   width: 25px;
   margin: 0 5px;
 }
-#center #social a img {
+#center-left #social a img {
   max-width: 100%;
+}
+
+#center-left h1 {
+  margin: 0;
+  color: #fff;
+  font-family: 'Gotham Book', Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
 }
 
 @media (max-width: 600px) {
