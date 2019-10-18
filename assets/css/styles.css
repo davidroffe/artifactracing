@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  overflow: hidden;
+  margin: 0;
+  background-color: #000;
+}
+#main-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  opacity: 0.8;
+}
+#center {
+  display: inline-block;
+  position: relative;
+  top: 330px;
+  left: 25px;
+}
+#logo-container {
+  width: 400px;
+}
+#logo-container img {
+  max-width: 100%;
+}
+#center #social {
+  display: flex;
+  margin-top: 10px;
+}
+#center #social a {
+  display: inline-block;
+  width: 25px;
+  margin: 0 5px;
+}
+#center #social a img {
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  #logo-container {
+    width: 300px;
+  }
+}
